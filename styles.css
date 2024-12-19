@@ -1,0 +1,83 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+    
+}
+
+header{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1430px;
+    height: 273px;
+}
+
+#bslc-logo{
+    width: 174px;
+    height: 174px;
+    margin-left: 8%;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav-link-child {
+    width: 245px;
+    justify-content: end;
+    font-size: 30px;
+}
+
+.nav-link-child a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-intro{
+    display: flex;
+    flex-direction: row;
+    width: 1430px;
+    height: 500px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 8%;
+    justify-content: center;
+}
+
+.green-text{
+    color: #19A89D; /*BSLC color*/
+}
+
+.content-intro img{
+    width: 516px;
+    margin-right: 45px;
+}
+
+.content-text h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.content-text p{
+    font-size: 28px;
+}
+
