@@ -45,6 +45,8 @@ header{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    width: 1500px;
+    justify-content: center;
 }
 
 .content-intro{
@@ -78,5 +80,116 @@ header{
 
 .content-text p{
     font-size: 28px;
+}
+
+.content-Nindya{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 426px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.content-Nindya img{
+    width: 106px;
+    height: 80px;
+}
+
+.content-Nindya-text{
+    font-size: 22px;
+    width: 700px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-Nindya-title h2{
+    font-weight: 500;
+}
+
+.content-Nindya-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: 500;
+    align-items: center;
+    width: 347px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    color: white;
+    background-color: #19A89D;
+    border: none;
+    border-radius: 5px;
+    width: 257px;
+    height: 65px;
+    font-size: 20px;
+    line-height: 24.7px;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 647.5px;
+    height: 569px;
+}
+
+.bolded{
+    font-weight: 700;
+}
+
+.containers h2{
+    font-weight: 500;
+}
+
+.content-Nindya-title h2{
+    margin: 20px;
+}
+
+.content-mentor-mentee{
+    display: flex;
+    width: 1480px;
+    align-self: center;
+    justify-content: space-evenly;
+    margin-top: 85px;
+}
+
+.container-text{
+    font-size: 22px;
+    width: 600px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 425;
+    text-align: justify;
+}
+
+.content-embed{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    align-items: center;
+}
+
+.content-embed h2{
+    font-weight: 400;
+    margin-top: 75px;
+}
+
+footer{
+    width: 1480px;
+    display: flex;
+    background-color: black;
+    margin-top: 100px;
 }
 
