@@ -16,6 +16,14 @@ header{
     height: 273px;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('Assets/Inter/static/Inter_18pt-Regular.ttf') format('woff2'),
+         url('./fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 #bslc-logo{
     width: 174px;
     height: 174px;
